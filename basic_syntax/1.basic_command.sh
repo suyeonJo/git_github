@@ -4,3 +4,5 @@ git add .
 # git commit은 staging area의 변경사항을 확정짓고 commitID생성
 git commit -m "메시지"
 
+# 원격 repo에 main브랜치 변경사항(commitID)업로드
+git push origin main
