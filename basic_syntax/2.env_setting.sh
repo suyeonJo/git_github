@@ -38,3 +38,17 @@ git commit -m "first"
 git push origin master
 
 # 다시 push
+
+# 사용자 지정 방법
+# 전역적 사용자(이름, Email) 지정
+git config --global user.name "유저네임"
+git config --global user.email "유저이메일"
+
+# 지역적 사용자 지정
+git config --local user.name "유저네임"
+git config --local user.email "유저이메일"
+
+# 사용자정보 조회
+git config user.name
+git config user.email
+git config --list
