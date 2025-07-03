@@ -87,3 +87,5 @@ git log --graph
 # main 브랜치 뿐만 아니라 전체 commit 이력조회
 git log --all 
 
+# 충돌무시하고 강제 push할 때
+git push origin main --force
