@@ -71,4 +71,19 @@ git commit -m "메시지타이틀" -m "메시지내용"
 # 타이틀이랑 메시지만 입력하면 되니까 위에 commit을 따라라
 git commit 
 
+# add와 커밋을 동시에
+git commit -am "add와 commit을 동시에"
+
+# local repo의 commit 이력 조회
+git log
+
+# git 로그를 간결하게 조회
+git log --oneline
+
+# git 로그를 그래프형태로 조회
+# 소스트리를 더 많이 사용함
+git log --graph
+
+# main 브랜치 뿐만 아니라 전체 commit 이력조회
+git log --all 
 
