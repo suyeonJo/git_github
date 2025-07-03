@@ -52,3 +52,23 @@ git config --local user.email "유저이메일"
 git config user.name
 git config user.email
 git config --list
+
+# 특정 파일을 git 추적목록에서 제외시키고 싶다면 .gitignore 파일에 파일목록 등록
+# 이미 add, commit 되어버린 파일을 추적목록에서 제어하고 싶다면 
+# 애초에 파일이 트랙킹되기전부터 제외처리하는게 제일 베스트 
+git rm -r --cached . 
+
+# 현재 working directory, staging area의 상태 조회
+git status
+
+# 특정 파일만 add할 경우
+git add 특정파일(위치포함)
+
+# local repository에 커밋이력 생성
+git commit -m "메시지타이틀" -m "메시지내용"
+
+# vi에디터 모드에서 작성 : 첫줄에는 제목, 두번째줄부터 내용용
+# 타이틀이랑 메시지만 입력하면 되니까 위에 commit을 따라라
+git commit 
+
+
