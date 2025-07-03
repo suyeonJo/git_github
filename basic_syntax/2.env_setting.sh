@@ -89,3 +89,11 @@ git log --all
 
 # 충돌무시하고 강제 push할 때
 git push origin main --force
+
+# 특정 commit ID로의 전환(소스코드를 과거의 특정버전으로 되돌릴때)
+git checkout 커밋ID
+
+# 다시 현재의 브랜치의 commit 되돌아올떄
+git checkout 현재 브랜치명(main)
+
+# 과거버전하고 현재버전하고 한번 비교해보고싶다 diff
