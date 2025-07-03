@@ -36,3 +36,5 @@ git remote add origin 나의 레포주소
 git add .
 git commit -m "first"
 git push origin master
+
+# 다시 push
